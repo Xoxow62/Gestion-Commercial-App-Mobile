@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Main" cloudDestinationProperty="Main" layout="BoxLayout" boxLayoutAxis="Y" title="DIRECTEUR COMMERCIAL" >
+  <component type="ComboBox" name="Choisir R&#xe9;gion" cloudDestinationProperty="Choisir R&#xe9;gion" >
+    <stringItem value="Selectionner une r&#xe9;gion" />
+    <stringItem value="CA" />
+    <stringItem value="PIC" />
+    <stringItem value="NPDC" />
+  </component>
+  <component type="Label" name="Nom R&#xe9;gion" cloudDestinationProperty="Nom R&#xe9;gion" focusable="false" text="Nom R&#xe9;gion :" >
+  </component>
+  <component type="TextField" name="Affichage nom r&#xe9;gion" cloudBoundProperty="text" cloudDestinationProperty="Affichage nom r&#xe9;gion" text="" >
+  </component>
+  <component type="Label" name="Code R&#xe9;gion" cloudDestinationProperty="Code R&#xe9;gion" text="Code R&#xe9;gion :" >
+  </component>
+  <component type="TextField" name="Affichage code r&#xe9;gion" cloudBoundProperty="text" cloudDestinationProperty="Affichage code r&#xe9;gion" text="" >
+  </component>
+  <component type="Label" name="CA R&#xe9;gion :" cloudDestinationProperty="CA R&#xe9;gion :" text="CA R&#xe9;gion :" >
+  </component>
+  <component type="TextField" name="Affiche CA R&#xe9;gion" cloudBoundProperty="text" cloudDestinationProperty="Affiche CA R&#xe9;gion" text="" >
+  </component>
+  <component type="Label" name="nbClient" cloudDestinationProperty="nbClient" text="Nombre de Client :" >
+  </component>
+  <component type="TextField" name="Affichage NB Client Region" cloudBoundProperty="text" cloudDestinationProperty="Affichage NB Client Region" text="" >
+  </component>
+</component>

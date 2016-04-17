@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Connexion" cloudDestinationProperty="Connexion" layout="BoxLayout" boxLayoutAxis="Y" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" layout="TableLayout" tableLayoutRows="3" tableLayoutColumns="2" >
+    <component type="Label" name="Identifiant" cloudDestinationProperty="Label" text="Identifiant :" verticalAlignment="4" >
+    </component>
+    <component type="TextField" name="id" cloudBoundProperty="text" cloudDestinationProperty="usename" text="" growByContent="false" >
+    </component>
+    <component type="Label" name="Mot de passe" cloudDestinationProperty="Label1" text="Mot de passe :" verticalAlignment="4" >
+    </component>
+    <component type="TextField" name="mdp" cloudBoundProperty="text" cloudDestinationProperty="password" text="" growByContent="false" constraint="65538" >
+    </component>
+  </component>
+  <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4" >
+    <component type="Button" name="Connexion" cloudDestinationProperty="login" text="Connexion" textPosition="3" >
+    </component>
+  </component>
+</component>
